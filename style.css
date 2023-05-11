@@ -1,0 +1,73 @@
+@import url();
+
+body {
+    background-color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 40%;
+    padding: 1.5rem;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card__header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card__header i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.card__header .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.card__header .logo img {
+    height: 12rem;
+    width: 15rem;
+}
+
+.card__title h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid orange;
+    border-right: 5px solid orange;
+    padding: 8px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
